@@ -1,0 +1,7 @@
+crm:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: crm.duckdb
+      threads: 1

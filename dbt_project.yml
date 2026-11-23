@@ -1,0 +1,7 @@
+name: crm
+version: "1.0.0"
+profile: crm
+
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+test-paths: ["tests"]

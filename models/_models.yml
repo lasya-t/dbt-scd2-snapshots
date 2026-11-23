@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_customers_history
+    description: One row per version of each customer (SCD Type 2), from the timestamp snapshot.
+    columns:
+      - name: customer_version_key
+        tests: [unique, not_null]
+      - name: customer_id
+        tests: [not_null]

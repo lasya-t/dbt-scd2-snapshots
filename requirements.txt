@@ -1,0 +1,4 @@
+dbt-duckdb>=1.9
+duckdb>=1.0
+pandas>=2.1
+pytest>=8.0
